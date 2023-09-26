@@ -46,7 +46,8 @@ You can use following template as an example (I named it `fersk_torr_status_text
 ## Set up a dashboard
 
 Once you've got everything configured you can set up a dashboard, here is an example:
-![Fersk Torr lovelace](/img/fersk_torr.jpg "Fersk Torr lovelace")
+
+![Fersk Torr lovelace](/fersk_torr_lovelace.jpg "Fersk Torr lovelace")
 
 And a JSON for it:
 ```
