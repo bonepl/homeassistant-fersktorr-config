@@ -16,16 +16,16 @@ Use the table below to decipher the tuya api entities and configure your device.
 | Entity type | ID  | Friendly name               | Description                                              | Inputs                                               | Comments                            |
 |-------------|-----|-----------------------------|----------------------------------------------------------|------------------------------------------------------|-------------------------------------|
 | Switch      | 1   | fersk_torr_power            | Turns on/off the device                                  |                                                      |                                     |
-| Select      | 2   | fersk_torr_mode             | Working mode of the device                               | 0: Auto (humidity based)<br>1: Laundry (continuous)  | Could be<br>handled as switch       |
+| Select      | 2   | fersk_torr_mode             | Working mode of the device                               | 0: Auto (humidity based)<br>1: Laundry (continuous)  | Could be handled as switch          |
 | Sensor      | 3   | fersk_torr_current_humidity | Current humidity %                                       |                                                      |                                     |
-| Number      | 4   | fersk_torr_target_humidity  | Target humidity % <br>(for Auto mode)                    | Manual suggests setting this<br>30 - 80% with step 5 | Could be <br>handled as select      |
+| Number      | 4   | fersk_torr_target_humidity  | Target humidity % (for Auto mode)                        | Manual suggests setting this to 30 - 80% with step 5 | Could be handled as select          |
 | Switch      | 5   | fersk_torr_ionizer          | Turns on/off the ionizer                                 |                                                      |                                     |
-| Select      | 6   | fersk_torr_fan_speed        | Fan speed                                                | 0: High<br>1: Low                                    | Could be<br>handled as switch       |
+| Select      | 6   | fersk_torr_fan_speed        | Fan speed                                                | 0: High<br>1: Low                                    | Could be handled as switch          |
 | Switch      | 7   | fersk_torr_child_lock       | Turns on/off the child lock                              |                                                      |                                     |
 | Switch      | 8   | fersk_torr_fan_swing        | Turns on/off the fan swing                               |                                                      |                                     |
-| Sensor      | 11  | fersk_torr_status           | The status of the device                                 | 0: ok<br>8: tank full                                | These are the ones<br>I am aware of |
-| Switch      | 12  | fersk_torr_timer            | Turns timer off or sets<br>timer's minutes               | 0: off<br>1-24: number of hours                      |                                     |
-| Sensor      | 13  | fersk_torr_timer_countdown  | Minutes left until device will<br>be turned off by timer |                                                      |                                     |
+| Sensor      | 11  | fersk_torr_status           | The status of the device                                 | 0: ok<br>8: tank full                                | These are the ones I am aware of    |
+| Switch      | 12  | fersk_torr_timer            | Turns timer off or sets timer's minutes                  | 0: off<br>1-24: number of hours                      |                                     |
+| Sensor      | 13  | fersk_torr_timer_countdown  | Minutes left until device will be turned off by timer    |                                                      |                                     |
 | Switch      | 101 | fersk_torr_inside_drying    | Turns on/off the inside drying                           |                                                      |                                     |
 
 ## Set up a template for status
