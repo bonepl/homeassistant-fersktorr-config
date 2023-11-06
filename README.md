@@ -91,9 +91,9 @@ cards:
       - entity: sensor.fersk_torr_status_text
         name: Status
       - entity: select.fersk_torr_mode
-      - entity: number.fersk_torr_target_humidity
+      - entity: select.fersk_torr_target_humidity
       - entity: sensor.fersk_torr_current_humidity
       - entity: select.fersk_torr_fan_speed
       - entity: select.fersk_torr_timer
-      - entity: sensor.fersk_torr_timer_minutes
+      - entity: sensor.fersk_torr_timer_countdown
 ```
