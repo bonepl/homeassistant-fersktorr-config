@@ -102,7 +102,7 @@ cards:
         name: Status
       - entity: select.fersk_torr_mode
         name: Mode
-      - entity: select.fersk_torr_target_humidity
+      - entity: number.fersk_torr_target_humidity
         name: Target humidity
         icon: mdi:water-percent
       - entity: sensor.fersk_torr_current_humidity
