@@ -49,7 +49,7 @@ Once you've got everything configured you can set up a dashboard, here is an exa
 
 ![Fersk Torr lovelace](/fersk_torr_lovelace.jpg "Fersk Torr lovelace")
 
-And a JSON for it:
+Example JSON for it:
 ```
 type: vertical-stack
 title: Fersk Torr
@@ -62,38 +62,58 @@ cards:
         tap_action:
           action: toggle
         entity: switch.fersk_torr_power
+        name: Power
+        icon: mdi:power
       - show_name: true
         show_icon: true
         type: button
         tap_action:
           action: toggle
         entity: switch.fersk_torr_child_lock
+        name: Child lock
+        icon: mdi:account-lock
       - show_name: true
         show_icon: true
         type: button
         tap_action:
           action: toggle
         entity: switch.fersk_torr_fan_swing
+        name: Fan swing
+        icon: mdi:fan-chevron-up
       - show_name: true
         show_icon: true
         type: button
         tap_action:
           action: toggle
         entity: switch.fersk_torr_inside_drying
+        name: Inside drying
+        icon: mdi:weather-windy
       - show_name: true
         show_icon: true
         type: button
         tap_action:
           action: toggle
         entity: switch.fersk_torr_ionizer
+        name: Ionizer
+        icon: mdi:creation
   - type: entities
     entities:
       - entity: sensor.fersk_torr_status_text
         name: Status
       - entity: select.fersk_torr_mode
+        name: Mode
       - entity: select.fersk_torr_target_humidity
+        name: Target humidity
+        icon: mdi:water-percent
       - entity: sensor.fersk_torr_current_humidity
+        name: Current humidity
       - entity: select.fersk_torr_fan_speed
+        name: Fan speed
+        icon: mdi:speedometer
       - entity: select.fersk_torr_timer
+        name: Timer
+        icon: mdi:fan-clock
       - entity: sensor.fersk_torr_timer_countdown
+        name: Timer countdown
+        icon: mdi:counter
 ```
