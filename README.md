@@ -24,7 +24,7 @@ Use the table below to decipher the tuya api entities and configure your device.
 | Switch      | 7   | fersk_torr_child_lock       | Turns on/off the child lock                              |                                                      |                                     |
 | Switch      | 8   | fersk_torr_fan_swing        | Turns on/off the fan swing                               |                                                      |                                     |
 | Sensor      | 11  | fersk_torr_status           | The status of the device                                 | 0: ok<br>8: tank full                                | These are the ones I am aware of    |
-| Switch      | 12  | fersk_torr_timer            | Turns timer off or sets timer's minutes                  | 0: off<br>1-24: number of hours                      |                                     |
+| Select      | 12  | fersk_torr_timer            | Turns timer off or sets timer's minutes                  | 0: off<br>1-24: number of hours                      |                                     |
 | Sensor      | 13  | fersk_torr_timer_countdown  | Minutes left until device will be turned off by timer    |                                                      |                                     |
 | Switch      | 101 | fersk_torr_inside_drying    | Turns on/off the inside drying                           |                                                      |                                     |
 
