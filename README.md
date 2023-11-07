@@ -18,7 +18,7 @@ Use the table below to decipher the tuya api entities and configure your device.
 | Switch      | 1   | fersk_torr_power            | Turns on/off the device                                  |                                                      |                                     |
 | Select      | 2   | fersk_torr_mode             | Working mode of the device                               | 0: Auto (humidity based)<br>1: Laundry (continuous)  | Could be handled as switch          |
 | Sensor      | 3   | fersk_torr_current_humidity | Current humidity %                                       |                                                      |                                     |
-| Number      | 4   | fersk_torr_target_humidity  | Target humidity % (for Auto mode)                        | Manual suggests setting this to 30 - 80% with step 5 | Could be handled as select          |
+| Number      | 4   | fersk_torr_target_humidity  | Target humidity % (for Auto mode)                        | Manual suggests setting this to 30 - 80% with step 5 |                                     |
 | Switch      | 5   | fersk_torr_ionizer          | Turns on/off the ionizer                                 |                                                      |                                     |
 | Select      | 6   | fersk_torr_fan_speed        | Fan speed                                                | 0: High<br>1: Low                                    | Could be handled as switch          |
 | Switch      | 7   | fersk_torr_child_lock       | Turns on/off the child lock                              |                                                      |                                     |
