@@ -34,13 +34,15 @@ Status only reports numbers, to give it a little meaning you can set up a templa
 
 You can use following template as an example (I named it `fersk_torr_status_text` so I can distinguish it from original sensor:
 ```
-{%if states.sensor.fersk_torr_status.state == '0' %}
+{% if states.sensor.fersk_torr_status.state == '0' %}
   ok
-{%elif states.sensor.fersk_torr_status.state == '8'%}
+{% elif states.sensor.fersk_torr_status.state == '4' %}
+  defrosting
+{% elif states.sensor.fersk_torr_status.state == '8' %}
   tank full
-{%else%}
+{% else %}
   unknown
-{%endif%}
+{% endif %}
 ```
 
 ## Set up a dashboard
